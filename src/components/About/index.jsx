@@ -70,7 +70,7 @@ const About = () => {
             <div className="education-item">
               <div className="education-date">2022.03</div>
               <div className="education-content">
-                <div className="education-type">Bachelor</div>
+                <div className="education-type">Bachelor Degree</div>
                 <div className="education-details">Computer Science - <a href="https://www.ewha.ac.kr/ewha/index.do" target="_blank" rel="noopener noreferrer">Ewha Womans University</a></div>
               </div>
             </div>

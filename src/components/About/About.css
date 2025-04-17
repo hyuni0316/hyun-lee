@@ -31,7 +31,7 @@
 .intro-flex {
   display: flex;
   gap: 40px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   align-items: flex-start;
 }
 
@@ -43,7 +43,7 @@
   width: 350px;
   height: 350px;
   object-fit: cover;
-  border-radius: 7px;
+  border-radius: 15px;
   margin-top: 10px;
   /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); */
 }
@@ -89,7 +89,7 @@
 
 .education-item {
   display: flex;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   position: relative;
 }
 
