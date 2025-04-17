@@ -1,0 +1,224 @@
+.about-section {
+  padding: 100px 0;
+  background-color: white;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  position: relative;
+  display: inline-block;
+  color: #333;
+}
+
+.section-title:after {
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 3px;
+  background-color: #333;
+  bottom: -10px;
+  left: 0;
+}
+
+/* 새로운 레이아웃을 위한 스타일 */
+.intro-flex {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 60px;
+  align-items: flex-start;
+}
+
+.profile-image-container {
+  flex: 0 0 350px;
+}
+
+.profile-image {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 7px;
+  margin-top: 10px;
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); */
+}
+
+.intro-content {
+  flex: 1;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.education-section h3 {
+  font-size: 1.4rem;
+  margin-bottom: 30px;
+  color: #333;
+  font-weight: 700;
+}
+
+.education-timeline {
+  position: relative;
+}
+
+.education-timeline::before {
+  content: '';
+  position: absolute;
+  left: 150px;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background-color: #ddd;
+}
+
+.education-item {
+  display: flex;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.education-date {
+  flex: 0 0 150px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.education-content {
+  flex: 1;
+  padding-left: 50px;
+}
+
+.education-type {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #8f8f8f;
+  margin-bottom: 0px;
+}
+
+.education-details {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+  .about-section {
+    padding: 60px 0;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .about-text p {
+    font-size: 1rem;
+  }
+  
+  .education-section h3 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+
+  .intro-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-image-container {
+    flex: 0 0 250px;
+    margin-bottom: 30px;
+  }
+
+  .profile-image {
+    width: 250px;
+    height: 250px;
+  }
+
+  .education-timeline::before {
+    left: 100px;
+  }
+
+  .education-date {
+    flex: 0 0 100px;
+    font-size: 1.2rem;
+  }
+
+  .education-content {
+    padding-left: 30px;
+  }
+
+  .education-type {
+    font-size: 1.2rem;
+  }
+
+  .education-details {
+    font-size: 1.2rem;
+  }
+}
+
+/* Added styles for the new component */
+.hyun-container {
+  margin-bottom: 30px;
+}
+
+.hyun-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.hyun-title2 {
+  font-size: 2.3rem;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 40px;
+}
+
+.hyun-title2 span {
+  color: #ff3a7c;
+}
+
+/* 강조 텍스트를 위한 스타일 */
+.highlight-text {
+  font-weight: 700;
+  /* color: #ff3a7c; */
+}
+
+@media screen and (max-width: 768px) {
+  .hyun-title {
+    font-size: 2.2rem;
+  }
+  
+  .hyun-title2 {
+    font-size: 1.8rem;
+  }
+}
+
+/* 링크 스타일 */
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #ff3a7c;
+} 
